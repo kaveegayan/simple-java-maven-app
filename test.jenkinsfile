@@ -9,6 +9,8 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'step22'
+                sleep(5)
+                echo 'waited 5 sec'
             }
         }
         stage('Deliver') {
